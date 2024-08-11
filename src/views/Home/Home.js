@@ -3,7 +3,7 @@ import addIcon from "./add.png"
 import ToDoCard from "../../components/ToDoCard/ToDoCard"
 import { useEffect, useState } from "react"
 import toast,{Toaster} from "react-hot-toast"
-// import Swal from 'sweetalert2'
+import Swal from 'sweetalert2'
 
 function Home() {
 
