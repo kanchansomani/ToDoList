@@ -1,0 +1,48 @@
+.app-title{
+    text-align: center;
+}
+
+.to-do-list-container{
+    background-color: white;
+    height: 400px;
+    width: 500px;
+    margin: 5px auto;
+    border-radius: 10px;
+    padding: 5px;
+    overflow-y:scroll;
+}
+
+.add-input{
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.category-select{
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.add-icon{
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.add-icon:hover{
+    transform: rotate(90deg);
+    transition: 1s;
+    box-shadow: 0 0 5px 5px #a3a3a3;
+}
+
+.add-todo-item-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
